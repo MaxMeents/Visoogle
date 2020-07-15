@@ -1,0 +1,272 @@
+html, body, div, span, applet, Object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr,acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong,sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table,caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of Reset CSS */
+
+
+@font-face {
+    font-family: FFF Tusj Bold;
+    src: url(fonts/FFF_Tusj.ttf);
+    font-weight:400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.wrapper{
+	width:5000px;
+	height:5000px;
+	left:0px;
+	top:0px;
+	z-index:-10;
+	position:fixed;
+}
+header{
+	width:auto;
+	height:-150px;
+	margin:auto;
+	position:relative;
+	font-size:40px;
+	font-family: c4;
+	    font-weight: bold;
+    background-color: black;
+    color: white;
+	font-family: 'Fredoka One', cursive; ;
+	text-align:center;
+
+}
+header p{
+	margin:0px;
+	font-family: Iceland;
+	font-size: 60px;
+	color:black
+}
+header span{
+	margin:0px;
+	font-family: Parchment;
+	color:rgb(0, 110, 245);
+	font-size: 120px;
+} 
+
+.AllObjs{
+	
+	margin: auto;
+	margin-left: 50px;
+  margin-right:50px;
+	position:relative;
+	
+}
+.Obj{
+	width:320px;
+	height:400px;
+	float:left;
+	position:relative;
+
+}
+.ObjLeave{
+	width: 420px;
+	height: 400px;
+	left: -50px;
+	position:absolute;
+  float:left;
+	z-index: -1;
+}
+.ObjImg{
+	width:200px;
+	height:300px;
+	top:50px;
+	left:60px;
+	position:absolute;
+}
+.ObjImg img{
+	width:200px;
+	height:300px;
+}
+.Acts{
+	width:200px;
+	height:420px;
+	top:-10px;
+	left:60px;
+	position:absolute;
+	display: none;
+}
+.Act{
+	width:200px;
+	height:60px;
+
+	text-align:center;
+	line-height:60px;   
+	font-size:45px;
+	font-family:Iceland;
+
+;
+	font:bold;
+}
+.Act p{
+	background:white;
+	opacity:.7;
+}
+.Act:hover{
+	font-family:Iceland,
+  opacity:1
+;
+}
+.ActImgs{
+	display:block;
+	opacity: .8;
+	
+}
+.ActImgs{
+	display:block;
+	opacity: .8;
+	
+}
+.ActImgs{
+	display:block;
+	opacity: .8;
+	
+}
+
+
+.pos1,.pos2,.pos3,.pos4,.pos5{
+
+}
+.pos6,.pos7,.pos8,.pos9,.pos10{
+
+}	
+.ActImg, .ActImg img{ 
+	width: 100px;
+	height: 80px;
+	display: block;
+	position: absolute;
+}
+.ActImg:hover, .ActImg img:hover{ 
+opacity:1
+}
+.pos1{
+	top: -40px;
+}
+.pos2{
+	top: 60px;
+
+}
+.pos3{
+	top: 160px;
+
+}
+.pos4{
+	top: 260px;
+
+}
+.pos5{
+	top:360px;
+
+}
+.pos6{
+	top: -40px;
+
+}
+.pos7{
+	top: 60px;
+
+}
+.pos8{
+	top: 160px;
+
+}
+.pos9{
+	top: 260px;
+}
+.pos10{
+	top: 360px;
+
+}
+.Title{
+	width:200px;
+	position: relative;
+	text-align: center;
+	font-family: Nova Square;
+}
+
+.Search span, .Search input{
+	font-size: 18px;
+	font-family: Nova Square;
+	
+}
+.Search{
+	position:relative;
+	top:-50px;
+}
+#Year{
+	width:65px;
+}
+
+.NextPage{
+	bottom:0px;
+	right:0px;
+	position:fixed;
+}
+.BG{
+	    height: 100%;
+    width: 100%;
+    top:0px;
+    display:none;
+    position: fixed;
+    z-index: 998;
+    background-color: black;
+    opacity:.7;
+}
+
+.loading{
+	display: none;
+	width:400px;
+	height: 200px;
+	line-height: 200px;
+	transform: translate(-50%, -50%);
+	border-radius: 10px;
+	text-align: center;
+	position: fixed;
+	z-index: 999;
+	vertical-align: center;
+	font-size: 14px;
+	  top: 50%;
+  left: 50%;
+  font-weight: bold;
+  background:rgb(0, 121, 196);
+  color: white;
+  font-family: 'Audiowide', cursive;
+}
